@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/register"
+        android:contentDescription="register vector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_marginTop="10dp"
+            android:textColor="#7A4988"
+            android:textSize="45sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get ready..."
+            android:textSize="15sp"
+            android:textStyle="italic"/>
+
+        <EditText
+            android:id="@+id/regName"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="Name:"
+            android:autofillHints="name" />
+
+        <EditText
+            android:id="@+id/regEmail"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Email"
+            android:layout_marginTop="10dp"
+            android:autofillHints="emailAddress" />
+
+        <EditText
+            android:id="@+id/regPhone"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Phone no:"
+            android:layout_marginTop="10dp"
+            android:autofillHints="phone" />
+
+        <EditText
+            android:id="@+id/regPassword"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            android:hint="Password:" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/royal_purple"
+        android:text="Register"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an accout?..."
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:onClick="goToLoginPage"/>
+
+
+    </LinearLayout>

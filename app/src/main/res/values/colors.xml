@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="royal_purple">#7A4899</color>
+    <color name="light">#EEC190CF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#00000000</color>
+
+        <color name="dark">#603f78</color>
+        <color name="darker">#241951</color>
+        <color name="vector">#6E4287</color>
+
+
+</resources>

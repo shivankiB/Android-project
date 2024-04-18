@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_add_event.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Input fields for committee name, title, description -->
+    <Button
+        android:id="@+id/selectImageButton"
+        android:text="Select Image"
+        android:layout_height="150dp"
+        android:layout_width="150dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+<EditText
+    android:id="@+id/committeeNameEditText"
+    android:hint="Committee Name"
+    android:layout_height="100dp"
+    android:layout_width="match_parent"
+    android:inputType="text" />
+
+<EditText
+    android:id="@+id/titleEditText"
+    android:hint="Event Title"
+    android:layout_height="100dp"
+    android:layout_width="match_parent"
+    android:inputType="text"/>
+
+<EditText
+    android:id="@+id/descriptionEditText"
+    android:hint="Event Description"
+    android:layout_height="200dp"
+    android:layout_width="match_parent"
+    android:inputType="textMultiLine"/>
+
+    <!-- Button to select an image -->
+
+    <!-- Button to add event -->
+<Button
+    android:id="@+id/addEventButton"
+    android:text="Add Event"
+    android:layout_height="90dp"
+    android:layout_width="150dp"
+    android:layout_marginTop="30dp"
+    android:layout_gravity="center_horizontal"/>
+    </LinearLayout>

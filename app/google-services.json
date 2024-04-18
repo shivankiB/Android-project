@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "817191432627",
+    "project_id": "eventtracker-43e64",
+    "storage_bucket": "eventtracker-43e64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817191432627:android:f6537ce40f1abe89d2dbc6",
+        "android_client_info": {
+          "package_name": "com.example.profile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3nv3PN4uNsVn8ufCg9da35EuQ1tQNBZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
